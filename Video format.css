@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: rgb(0, 22, 26);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alone{
+    background-color: transparent;
+    width: 98%;
+    height: 90%;
+    background-image: url("15.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr  1fr  1fr  1fr  1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 82px 82px 82px 82px 82px 82px ;
+    
+
+
+}
+
+
+.grow1,
+.grow96{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: one;
+    animation-duration: 1s;
+    animation-delay: 3.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes one{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(180deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow2,
+.grow13,
+.grow84,
+.grow95{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: two;
+    animation-duration: 1s;
+    animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes two{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(180deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow3,
+.grow14,
+.grow25,
+.grow72,
+.grow83,
+.grow94{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 22, 26);
+    animation-name: three;
+    animation-duration: 1s;
+    animation-delay: 3.4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes three{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(180deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow4,
+.grow15,
+.grow26,
+.grow37,
+.grow60,
+.grow71,
+.grow82,
+.grow93{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 22, 26) ;
+    animation-name: four;
+    animation-duration: 1s;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes four{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(180deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow5,
+.grow16,
+.grow27,
+.grow38,
+.grow49,
+.grow48,
+.grow59,
+.grow70,
+.grow81,
+.grow92{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 22, 26) ;
+    animation-name: five;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes five{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(180deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow6,
+.grow17,
+.grow28,
+.grow39,
+.grow50,
+.grow61,
+.grow36,
+.grow47,
+.grow58,
+.grow69,
+.grow80,
+.grow91{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: six ;
+    animation-duration: 1s;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes six{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(180deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow7,
+.grow18,
+.grow29,
+.grow40,
+.grow51,
+.grow62,
+.grow73,
+.grow24,
+.grow35,
+.grow46,
+.grow57,
+.grow68,
+.grow79,
+.grow90{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 22, 26) ;
+    animation-name: seven;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes seven{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(180deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow8,
+.grow19,
+.grow30,
+.grow41,
+.grow52,
+.grow63,
+.grow74,
+.grow85,
+.grow12,
+.grow23,
+.grow34,
+.grow45,
+.grow56,
+.grow67,
+.grow78,
+.grow89{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 22, 26) ;
+    animation-name: eight;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes eight{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(180deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow9,
+.grow20,
+.grow31,
+.grow42,
+.grow53,
+.grow64,
+.grow75,
+.grow86,
+.grow11,
+.grow22,
+.grow33,
+.grow44,
+.grow55,
+.grow66,
+.grow77,
+.grow88{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: nine;
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes nine{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(270deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
+
+.grow10,
+.grow21,
+.grow32,
+.grow43,
+.grow54,
+.grow65,
+.grow76,
+.grow87{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: ten;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ten{
+    0%{
+        background-color: rgb(0, 22, 26);
+    }
+    50%{
+        background-color:black ;
+    }
+    100%    {
+        transform: rotateY(360deg);
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+}
